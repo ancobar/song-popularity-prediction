@@ -4,7 +4,6 @@ This project analyzes the factors that influence a song’s popularity using clu
 
 > 🚀 The goal: Help producers and artists better understand what musical attributes drive success and use that insight to forecast whether a song will perform well.
 
----
 
 ## 🧠 Project Objectives
 
@@ -13,14 +12,16 @@ This project analyzes the factors that influence a song’s popularity using clu
 - Predict track popularity using **linear regression**, measuring the influence of genre, artist popularity, and other musical properties
 - Deliver strategic recommendations for music production and marketing
 
----
+## 🙋‍♀️ Authors
+
+Ana Cortés Barquier, Tomás Valbuena Sierra, Tomás Luz, Robert Koegel, Hiromitsu Fujiyama
+
 
 ## 📁 Project Structure
 
-- Assignment 1_Popularity Prediction_Notebook.ipynb >>> Full code: EDA, Clustering (K-Means), Regression models
-- README.md >>> Project summary and documentation
+- **Assignment 1_Popularity Prediction_Notebook.ipynb** >>> Full code: EDA, Clustering (K-Means), Regression models
+- **README.md** >>> Project summary and documentation
 
----
 
 ## 🔍 Dataset
 
@@ -28,7 +29,6 @@ The dataset, `Songs_2025.xlsx`, includes **2,300 songs** with 19 features, such 
 - Musical properties: `danceability`, `energy`, `acousticness`, `tempo`, etc.
 - Metadata: `artist popularity`, `release year`, `genre`, etc.
 
----
 
 ## 📊 Methodology
 
@@ -48,7 +48,6 @@ The dataset, `Songs_2025.xlsx`, includes **2,300 songs** with 19 features, such 
 - Top features: `artist popularity`, `energy`, `reggae`, `rock`, `rnb_soul`, etc.
 - Achieved **R² = 0.34**, with MAE, RMSE, and MAPE indicating good model reliability
 
----
 
 ## 💡 Key Insights
 
@@ -57,7 +56,6 @@ The dataset, `Songs_2025.xlsx`, includes **2,300 songs** with 19 features, such 
 - 🌟 **Artist popularity** significantly boosts track success
 - 🎸 Genres like **rock** and **acoustic** show moderate positive influence
 
----
 
 ## 📈 Model Performance
 
@@ -69,7 +67,6 @@ The dataset, `Songs_2025.xlsx`, includes **2,300 songs** with 19 features, such 
 
 > 📌 These results suggest a practical tool for producers and marketers to forecast a song's potential.
 
----
 
 ## 🛠 Tools Used
 
@@ -78,21 +75,6 @@ The dataset, `Songs_2025.xlsx`, includes **2,300 songs** with 19 features, such 
 - Scikit-learn (KMeans)
 - Statsmodels (OLS regression)
 
----
-
-## 🙋‍♀️ Authors
-
-Ana Cortés Barquier, Tomás Valbuena Sierra, Tomás Luz, Robert Koegel, Hiromitsu Fujiyama
-
----
-
-## 📌 Future Improvements
-
-- Incorporate **social media engagement** and **listener demographics**
-- Explore **non-linear models** like Random Forests or Gradient Boosting
-- Build a **classification model** to predict “hit or not” based on threshold
-
----
 
 ## 📄 License
 
